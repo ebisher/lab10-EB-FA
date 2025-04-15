@@ -1,4 +1,4 @@
-# https://github.com/newmanhw/lab10-swe
+# https://github.com/ebisher/lab10-EB-FA.git
 # Partner 1: Ella Bisher
 # Partner 2: Frank Ascencio
 

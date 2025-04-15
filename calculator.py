@@ -1,6 +1,6 @@
 # https://github.com/newmanhw/lab10-swe
-# Partner 1: Frank Ascencio
-# Partner 2: Ella Bisher
+# Partner 1: Ella Bisher
+# Partner 2: Frank Ascencio
 
 import math
 

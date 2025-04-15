@@ -1,3 +1,7 @@
+# https://github.com/newmanhw/lab10-swe
+# Partner 1: Ella Bisher
+# Partner 2: Frank Ascencio
+
 import unittest
 from calculator import *
 

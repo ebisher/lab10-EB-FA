@@ -4,6 +4,20 @@
 
 import math
 
+def square_root(a):
+    try:
+        if a < 0:
+            raise ValueError("Cannot take the square root of a negative number.")
+        return math.sqrt(a)
+    except ValueError as ve:
+        raise ve
+
+def hypotenuse(a, b):
+    try:
+        return math.hypot(a, b)
+    except Exception as e:
+        raise e
+
 def add(a, b):
     return a + b
 

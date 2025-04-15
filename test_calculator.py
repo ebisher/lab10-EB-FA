@@ -1,4 +1,4 @@
-# https://github.com/newmanhw/lab10-swe
+# https://github.com/ebisher/lab10-EB-FA.git
 # Partner 1: Ella Bisher
 # Partner 2: Frank Ascencio
 
@@ -13,9 +13,9 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(add(-1, 1), 0)
 
     def test_subtract(self): # 3 assertions
-        self.assertEqual(sub(2, 3), -1)
-        self.assertEqual(add(-2, 3), -5)
-        self.assertEqual(add(1, -1), 2)
+        self.assertEqual(subtract(2, 3), -1)
+        self.assertEqual(subtract(-2, 3), -5)
+        self.assertEqual(subtract(1, -1), 2)
     ##########################
 
     # Partner 1
@@ -34,18 +34,18 @@ class TestCalculator(unittest.TestCase):
     # Partner 2
     def test_divide_by_zero(self): # 1 assertion
         with self.assertRaises(ZeroDivisionError):
-            div(0, 5)
+            divide(0, 5)
         pass
 
     def test_logarithm(self): # 3 assertions
-        self.assertTrue(log(10, 100), 2)
-        self.assertTrue(log(2, 8), 3)
-        self.assertTrue(log(5, 25), 2)
+        self.assertTrue(logarithm(10, 100), 2)
+        self.assertTrue(logarithm(2, 8), 3)
+        self.assertTrue(logarithm(5, 25), 2)
 
     def test_log_invalid_base(self): # 1 assertion
         # use same technique from test_divide_by_zero
         with self.assertRaises(ValueError):
-            log(1, 0)
+            logarithm(1, 0)
     ##########################
     
     # Partner 1
